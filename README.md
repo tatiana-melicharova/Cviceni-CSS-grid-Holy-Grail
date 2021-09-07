@@ -1,1 +1,1 @@
-# Cviceni-CSS-grid-Holy-Grail
+# Cvičení: CSS grid Holy Grail
