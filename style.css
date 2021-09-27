@@ -18,3 +18,23 @@ body {
 
 /* ---------------------------------------------------- */
 
+@media (min-width: 800px) {
+	.kontejner {
+		display: grid;
+		grid-template-columns: 200px 1fr 250px;
+		grid-template-rows: 200px 1fr 100px;
+		gap: 20px;
+	}
+
+	.hlavicka {
+		grid-area: 1 / span 3;
+	}
+
+	.levy {
+		grid-area: 2 / 1;
+	}
+
+	.paticka {
+		grid-area: -2 / span 3;
+	}
+}
